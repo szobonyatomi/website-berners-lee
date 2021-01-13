@@ -135,7 +135,7 @@ body {
 }
 
 .wrapper {
-  width: 500px;
+  min-width: 500px;
 }
 
 .block {
