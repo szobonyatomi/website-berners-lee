@@ -128,14 +128,19 @@ table {
 body {
   background: #ebebeb;
   font-family: 'Open Sans', sans-serif;
-  text-align: center;
-  padding: 5% 30%;
-  display: flex;
-  justify-content: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1.8fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas: 'left wrapper right';
 }
 
 .wrapper {
   min-width: 500px;
+  text-align: center;
 }
 
 .block {
